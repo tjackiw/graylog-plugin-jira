@@ -5,6 +5,8 @@ JIRA Plugin for Graylog
 
 An alarm callback plugin that integrates [JIRA](https://www.atlassian.com/software/jira/) into [Graylog](https://www.graylog.org/).
 
+![](https://github.com/tjackiw/graylog-plugin-jira/blob/master/screenshot-jira.png)
+
 **Required Graylog version:** 1.0 and later
 
 ## Installation
@@ -21,6 +23,8 @@ Restart `graylog-server` and you are done.
 Create a "JIRA Alarm Callback" on the "Manage alerts" page of your stream. 
 Enter the requested configuration and save. 
 Make sure you also configured alert conditions for the stream so that the alerts are actually triggered.
+
+![](https://github.com/tjackiw/graylog-plugin-jira/blob/master/screenshot-alert.png)
 
 ## Build
 
